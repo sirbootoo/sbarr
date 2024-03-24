@@ -1,6 +1,6 @@
 {
   "name": "sbarr",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Standard Javascript Workaround for Arrays and Arrays of Objects.",
   "main": "index.js",
   "scripts": {
