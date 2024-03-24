@@ -91,11 +91,33 @@ const array = [
 
 const sortedArray = sortByProperties(array, ['name', '-date']);
 console.log(sortedArray);
+// Sorting by name ascending
+let sortedByNameAsc = sortByProperties(arrayOfObjects, ["-name"]);
+console.log("Sorted by name (ascending):", sortedByNameAsc);
+
+// Sorting by name descending
+let sortedByNameDesc = sortByProperties(arrayOfObjects, ["name"]);
+console.log("Sorted by name (descending):", sortedByNameDesc);
+
+// Sorting by date ascending, then by name descending
+let sortedByDateName = sortByProperties(arrayOfObjects, ["-date", "name"]);
+console.log("Sorted by date (descending) and name (ascending):", sortedByDateName);
+
 /* Output:
-[
-    { name: 'Alice', date: '2022-10-20' },
-    { name: 'Bob', date: '2024-01-08' },
-    { name: 'John', date: '2023-05-15' }
+Sorted by name (ascending): [
+  { name: 'John', date: '2023-05-15' },
+  { name: 'Bob', date: '2024-01-08' },
+  { name: 'Alice', date: '2022-10-20' }
+]
+Sorted by name (descending): [
+  { name: 'Alice', date: '2022-10-20' },
+  { name: 'Bob', date: '2024-01-08' },
+  { name: 'John', date: '2023-05-15' }
+]
+Sorted by date (ascending) and name (descending): [
+  { name: 'Bob', date: '2024-01-08' },
+  { name: 'John', date: '2023-05-15' },
+  { name: 'Alice', date: '2022-10-20' }
 ]
 */
 ```
