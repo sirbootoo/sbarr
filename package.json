@@ -1,6 +1,6 @@
 {
   "name": "sbarr",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Standard Javascript Workaround for Arrays and Arrays of Objects.",
   "main": "index.js",
   "scripts": {
@@ -11,11 +11,24 @@
   , "url" : "https://github.com/sirbootoo/sbarr.git"
   },
   "keywords": [
-    "arrays",
     "array",
-    "of",
-    "objects",
-    "array"
+    "utility",
+    "find",
+    "search",
+    "object",
+    "sort",
+    "sorting",
+    "multiple",
+    "properties",
+    "key",
+    "value",
+    "index",
+    "descending",
+    "ascending",
+    "helper",
+    "tool",
+    "data",
+    "manipulation"
   ],
   "author": "BooToo <dayoajisebutu@gmail.com>",
   "license": "ISC"
